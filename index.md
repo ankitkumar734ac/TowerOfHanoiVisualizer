@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1350
+, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Towers Of Hanoi Vitualizer By Ankit</title>
+    <link rel="stylesheet" href="towers.css">
+</head>
+<body style="background-color:black;">
+    <div class="container">
+        <div class="header">
+            <h3 class="title">Select the number of <b>Discs</b> to transfer</h3>
+                <select name="disc" id="" class="numbers">
+                    <option value="5" class="number">5</option>
+                    <option value="4" class="number">4</option>
+                    <option value="3" class="number">3</option>
+                    <option value="2" class="number">2</option>
+                    <option value="1" class="number">1</option>
+                </select>
+            <button class="play">Play</button>
 
-You can use the [editor on GitHub](https://github.com/ankitkumar734ac/TowerOfHanoiVisualizer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+            <div class="discs-wrapper">
+                <div class="tower-A holder">
+                        <div class="bar"></div>
+                        <div class="base">A</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ankitkumar734ac/TowerOfHanoiVisualizer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+                </div>
+                        
+                <div class="tower-B holder">
+                        <div class="bar"></div>
+                        <div class="base">B</div>
+                </div>
+                <div class="tower-C holder">
+                        <div class="bar"></div>
+                        <div class="base">C</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="tower.js"></script>
+</html>
